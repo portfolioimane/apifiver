@@ -24,7 +24,7 @@ const connect = async () => {
   }
 };
 
-app.use(cors({ origin: "https://main--hilarious-marzipan-86f0fc.netlify.app/", credentials: true }));
+app.use(cors({ origin: "https://hilarious-marzipan-86f0fc.netlify.app", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
